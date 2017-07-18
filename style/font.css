@@ -1,0 +1,63 @@
+@font-face {
+	font-family: PT Sans Caption;
+	src: url("../font/PT_Sans-Caption-Web-Regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: PT Sans Caption;
+	src: url("../font/PT_Sans-Caption-Web-Bold.ttf");
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: Libre Franklin;
+	src: url("../font/LibreFranklin-ExtraLight.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: Libre Franklin;
+	src: url("../font/LibreFranklin-Bold.ttf");
+	font-weight: bold;
+	font-style: normal;
+}
+.btn {
+	border: 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 4px;      /*box-shadow: 0px 3px 0px #ccc;*/
+    font-weight: bold;
+    transition: 0.5s;
+    line-height: 1.25;
+    display: inline-block;
+    color: black !important;
+}
+
+/*nút nhỏ*/
+.sm { padding: 8px 16px; font-weight: 700px; font-size: 11px;}
+/*nút lớn*/
+.lg { padding: 15px 26px; font-size: 14px;}
+
+/*nút đỏ*/
+.btn-danger { color:white !important; background-color: #b84d45; border-bottom: 3px solid #a5453e;}
+.btn-danger:focus {	box-shadow: 0 0 0 2px rgba(165, 69, 62, 0.5);}
+.btn-danger:hover {	background-color: #933d37; border-color: #79332d;}
+
+/*nút trắng*/
+.btn-secondary { background-color: #ffffff;	border-bottom: 3px solid #ccc; color: #292b2c;}
+.btn-secondary:focus { box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5); }
+.btn-secondary:hover { background-color: #e6e6e6; border-color: #adadad;}
+
+/*hộp text*/
+.box-text {
+	font-size: 20px;
+	border: none; 
+	padding: 12px 24px;
+	background-color: #ffffff;
+	border-bottom: 3px solid #ccc; color: #292b2c;
+	border-radius: 4px;
+	width: 350px;
+	color: #464a4c;
+}
+input[type=email]:focus { outline: none;}
